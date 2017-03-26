@@ -5,7 +5,7 @@ import java.util.Set;
 public class Subset_incomplete {
 
 	public static void main(String[] args){
-		String s = "123";
+		String s = "3257";
 		subset(s.toCharArray(), 0, new char[s.length()], 0);
 		
 	}

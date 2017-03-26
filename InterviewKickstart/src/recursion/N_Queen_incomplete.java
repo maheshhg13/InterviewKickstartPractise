@@ -28,7 +28,10 @@ public class N_Queen_incomplete {
 				return false;
 		}
 		
-		
+		for(int i=row,j=col; i<mat.length && j>=0; i++, j--){
+			if(mat[row][i])
+				return false;
+		}
 		
 		return true;
 
